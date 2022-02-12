@@ -140,12 +140,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bitmaplib.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="paulslib.c" />
+    <ClCompile Include="bitmaplib.cpp" />
+    <ClCompile Include="Contours.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="paulslib.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bitmaplib.h" />
+    <ClInclude Include="Contours.h" />
     <ClInclude Include="paulslib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

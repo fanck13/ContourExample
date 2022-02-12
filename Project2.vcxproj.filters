@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bitmaplib.c">
+    <ClCompile Include="bitmaplib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="paulslib.c">
+    <ClCompile Include="paulslib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Contours.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -31,6 +34,9 @@
     </ClInclude>
     <ClInclude Include="paulslib.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Contours.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
